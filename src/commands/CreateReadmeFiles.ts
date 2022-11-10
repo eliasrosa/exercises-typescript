@@ -68,7 +68,7 @@ const main = async () => {
 
     const submoduleIndex: string[] = [];
     for await (const submodule of module.submodules) {
-      submoduleIndex.push(`- [${submodule.name}](${submodule.path}/README.md)`);
+      submoduleIndex.push(`- [${submodule.name}](${submodule.path})`);
 
       const topicIndex: string[] = [];
       const topicPath = path.join(__dirname, '../modules', module.path, submodule.path);

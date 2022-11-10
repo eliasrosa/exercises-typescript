@@ -4,4 +4,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lorem massa, dapi
 
 ## Submódulos
 
-- [Funções básicas](basics/README.md)
+- [Funções básicas](basics)
