@@ -4,9 +4,9 @@ import type AnswersTypes from './types';
 
 const { double, triple } = customImport(__dirname) as AnswersTypes;
 
-describe('#nodejs', () => {
-  describe('#basic', () => {
-    describe('#numbers', () => {
+describe('nodejs', () => {
+  describe('fundamental', () => {
+    describe('number', () => {
       test('deve retornar o dobro do valor', () => {
         expect(double(1)).toBe(2);
         expect(double(2)).toBe(4);

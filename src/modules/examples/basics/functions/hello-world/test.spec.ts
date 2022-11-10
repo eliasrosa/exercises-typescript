@@ -1,5 +1,5 @@
 /* eslint-disable no-template-curly-in-string */
-import { customImport } from '../../../../setup';
+import { customImport } from '../../../../../setup';
 import type AnswersTypes from './types';
 
 const { HelloWorld, HelloWorldYear } = customImport(__dirname) as AnswersTypes;

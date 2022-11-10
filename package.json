@@ -6,7 +6,8 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "test": "jest --coverage=false",
     "test:watch": "jest --watchAll --coverage=false",
-    "test:watch:answers": "ANSWERS=1 jest --watchAll --coverage=false"
+    "test:dev": "ANSWERS=1 jest --coverage=false",
+    "test:dev:watch": "ANSWERS=1 jest --watchAll --coverage=false"
   },
   "dependencies": {
     "yargs": "^17.6.2"

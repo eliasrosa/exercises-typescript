@@ -7,4 +7,5 @@ export default {
   coverageProvider: 'v8',
   clearMocks: true,
   setupFiles: [],
+  verbose: true,
 };
