@@ -1,8 +1,8 @@
 # Exercícios
 
-### HelloWorld
+## HelloWorld
 
-Crie uma função chamada `HelloWorld` e ao executar ela deverá retornar uma string.
+Crie uma função chamada `HelloWorld()` e ela deverá retornar `Hello World`.
 
 Exemplo:
 
@@ -10,9 +10,9 @@ Exemplo:
 HelloWorld() => 'Hello World'
 ```
 
-### HelloWorldYear
+## HelloWorldYear
 
-Crie uma função chamada `HelloWorldYear`, que receberá um número como parâmetro e ao executar ela deverá retornar uma string.
+Crie uma função chamada `HelloWorldYear(year)`, e ela deverá retornar uma string conforme exemplo abaixo.
 
 Exemplo:
 

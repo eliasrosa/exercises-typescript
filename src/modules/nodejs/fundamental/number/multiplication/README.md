@@ -1,6 +1,6 @@
 # Exercícios
 
-### Double
+## Double
 
 Crie uma função chamada `double(x)` que multipla o valor de `x` por `2`.
 
@@ -12,7 +12,7 @@ double(5) => 10
 double(10) => 20
 ```
 
-### Triple
+## Triple
 
 Crie uma função chamada `triple(x)` que multipla o valor de `x` por `3`.
 
@@ -24,7 +24,7 @@ triple(5) => 15
 triple(10) => 30
 ```
 
-### Multiple
+## Multiple
 
 Crie uma função chamada `multiple(x, y)` que multipla o valor de `x` por `y`.
 
