@@ -3,7 +3,7 @@
 import path from 'path';
 import { Module, modulesList, Submodule } from '../config';
 import {
-  isDirectory, listDirectory, mkdir, openFile, writeFile,
+  isDirectory, listDirectory, openFile, writeFile,
 } from '../utils/files';
 import { capitalizeFirstLetter } from '../utils/string';
 
