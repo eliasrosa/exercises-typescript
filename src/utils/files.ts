@@ -31,3 +31,11 @@ export async function isDirectory(path: string) {
     throw new Error(`Não foi possível verificar sé o caminho informado é um diretório: ${path}`);
   }
 }
+
+export async function mkdir(path: string, params) {
+  try {
+    return await fs.mkdir(path, params);
+  } catch (err) {
+    throw new Error(`Não foi possível criar o caminho informado: ${path}`);
+  }
+}

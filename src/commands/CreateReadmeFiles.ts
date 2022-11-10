@@ -3,7 +3,7 @@
 import path from 'path';
 import { Module, modulesList, Submodule } from '../config';
 import {
-  isDirectory, listDirectory, openFile, writeFile,
+  isDirectory, listDirectory, mkdir, openFile, writeFile,
 } from '../utils/files';
 import { capitalizeFirstLetter } from '../utils/string';
 
@@ -88,6 +88,9 @@ const main = async () => {
 
             if (await isDirectory(exercisePath)) {
               topicIndex.push(`    <li><a href="${topicName}/${exerciseName}">${exerciseName}</a></li>`);
+
+              const exercisesFolder = path.join(__dirname, '../exercises', module.path, submodule.path, topicName);
+              await mkdir(exercisesFolder, { recursive: true });
             }
           }
 

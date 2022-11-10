@@ -5,3 +5,7 @@ export const double = (x) => {
 export const triple = (x) => {
   return x * 3;
 };
+
+export const multiple = (x, y) => {
+  return x * y;
+};
