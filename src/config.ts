@@ -27,7 +27,7 @@ export const modulesList: Module[] = [
     path: 'nodejs',
     description,
     submodules: [
-      { name: 'Fundamental', path: 'fundamentals', description },
+      { name: 'Fundamental', path: 'fundamental', description },
       { name: 'Express', path: 'express', description },
     ],
   },

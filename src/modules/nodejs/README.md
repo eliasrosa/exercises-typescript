@@ -4,5 +4,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lorem massa, dapi
 
 ## Submódulos
 
-- [Fundamental](fundamentals)
+- [Fundamental](fundamental)
 - [Express](express)

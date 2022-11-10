@@ -4,16 +4,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lorem massa, dapi
 
 ## Exercícios
 
-<details><summary>Numbers</summary>
+<details><summary>Number</summary>
   <ul>
+    <li><a href="number/multiplication">multiplication</a></li>
   <ul>
 </details>
 
-<details><summary>Strings</summary>
+<details><summary>String</summary>
   <ul>
-    <li><a href="strings/capitalize">capitalize</a></li>
-    <li><a href="strings/split">split</a></li>
-    <li><a href="strings/upper">upper</a></li>
+    <li><a href="string/split">split</a></li>
   <ul>
 </details>
 
